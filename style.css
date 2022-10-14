@@ -1,0 +1,204 @@
+
+body {
+    height: 100%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    background-color: wheat;
+    color:#ff5c29;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#DadosPessoais{
+    display:flex ;
+    background-color: #49001e;
+    padding: 20px;
+	border-radius: 20px;
+    width: 65%;
+    margin-top: 30px;
+    margin-right: 50px; 
+    margin-left: 10px;
+    
+}
+#DadosPessoais li{
+    text-align: start;
+}
+.a:hover{
+    color: green;
+}
+.b:hover{
+    color: red;
+}
+#dp1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#foto figure{
+    margin-top: 40px;
+    border-radius: 100%;
+    background-color: black;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+#foto figure img{
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+}
+#foto{
+    background-color: #49001e;
+    padding-bottom: 10px;
+	border-radius: 20px;
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 10px; 
+    margin-left: 60px;
+}
+#foto h1 {
+    padding-top: 20px;
+}
+#foto ul{
+    padding-top: 100px;
+}
+#foto li{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#foto a{
+    color: #ff5c29;
+    text-decoration: none;
+}
+#foto li:hover,#foto a:hover{
+    color: wheat;
+}
+button {
+    padding: 10px;
+    background-color: antiquewhite;
+    height: 50px;
+    border-radius: 10px;
+}
+label img{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+#chec {
+    display:none ;
+}
+nav{
+    border-bottom:10px solid #2d2d2d;
+    height: 100%;
+    border-left: 70px solid #49001e;
+    box-shadow: 10px 0 0 #ff5c29;
+    display: block;
+    background-color: #2d2d2dee;
+    width: 300px;
+    height: 10  0%;
+    left: -370px;
+    transition: 0.5s;
+    position: absolute;
+}
+
+#chec:checked ~ nav{
+    transform: translateX(365px);
+    transition: 0.5s;
+}
+nav ul{
+    padding: 0px;
+    list-style: none;
+    text-align: start;
+    padding-top: 60px;
+    margin: 0px;
+}
+
+#Icon{
+    
+    padding-top: 65px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 20px;
+    position: absolute;
+    left: -63px;
+    
+}
+#Icon span{
+    width: 55px;
+    height: 55px;
+    padding-top: 5px;
+    
+}
+#Icon img{
+    width: 30px;
+    height: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: #ff5c29;
+    background-color: #2d2d2d;
+    display: flex;
+    padding: 20px 5px;
+}
+#DNav{
+    padding-left: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+}
+#UlNav button:hover{
+    
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #ff5c29;
+    background-image: radial-gradient(to right,#49001e,#ff5c29);
+    color: black;
+}
+#UlNav a:hover{
+    color: black;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #ff5c29;
+    background-image: radial-gradient(to left,#49001e,#ff5c29);
+}
+label{
+    position: absolute;
+    z-index: 1;
+}
+footer{
+    display: flex;
+    bottom: 0px;
+    z-index: -1;
+    width: 100%;
+    right: 0px;
+    left: -10px;
+    border-left: 40px solid #2d2d2d;
+    position: absolute; 
+    text-align: center;
+    background-color: #2d2d2d;
+    bottom: -10px;
+    
+}
+footer .phone{
+    background-color: blue;
+}
+footer div{
+    align-self: center;
+    width: 80%;
+}
+#Enbalagem {
+    background-color: #49001e;
+    padding: 20px;
+	border-radius: 10px;
+    width: 65%;
+    margin-top: 30px;
+    margin-right: 50px; 
+    margin-left: 10px;
+}
